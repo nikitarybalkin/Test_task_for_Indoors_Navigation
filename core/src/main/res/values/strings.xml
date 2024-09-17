@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="timetable_for">Timetable of suburban and intercity transport</string>
+    <string name="from_where">From where</string>
+    <string name="to_where">To where</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="date">Date</string>
+    <string name="any">any</string>
+    <string name="find">Find</string>
+    <string name="fill_all">Please, fill all fields</string>
+    <string name="no_available">No available routes</string>
+
+
+</resources>

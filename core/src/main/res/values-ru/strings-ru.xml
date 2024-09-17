@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="timetable_for">Расписание пригородного и междугороднего транспорта</string>
+    <string name="from_where">From where</string>
+    <string name="to_where">To where</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="date">Date</string>
+    <string name="any">any</string>
+    <string name="find">Найти</string>
+    <string name="fill_all">Пожулайста, заполните все поля</string>
+    <string name="no_available">Нет доступных маршрутов</string>
+
+
+</resources>

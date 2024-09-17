@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/enterParametersFragment">
+
+    <fragment
+        android:id="@+id/enterParametersFragment"
+        android:name="com.features.timetable.presentation.EnterParametersFragment"
+        android:label="EnterParametersFragment" >
+        <action
+            android:id="@+id/action_enterParametersFragment_to_timetableFragment"
+            app:destination="@id/timetableFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/timetableFragment"
+        android:name="com.features.timetable.presentation.TimetableFragment"
+        android:label="TimetableFragment" >
+        <argument
+            android:name="date"
+            app:argType="string" />
+        <argument
+            android:name="transport"
+            app:argType="string" />
+    </fragment>
+</navigation>
